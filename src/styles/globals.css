@@ -7,8 +7,28 @@
 }
 
 body {
-    background-color: var(--bg-color);
+    background: #080808
 }
+
+body::before, body::after {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    --grad: radial-gradient(at 30%, red, rgba(255, 0, 0, .2) 50%, transparent 70%);
+    --mask: var(--grad), var(--grad), var(--grad);
+    -webkit-mask: var(--mask);
+    -webkit-mask-composite: source-in;
+    mask: var(--mask);
+    mask-composite: intersect;
+    content: '';
+}
+body::before {
+    filter: url(#f);
+}
+body::after {
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.852), rgba(128, 0, 128, 0.551) 20%, rgb(236, 19, 4));
+}
+
 
 .activeStyle {
     color: rgb(203, 213, 225)

@@ -41,8 +41,8 @@ const Experience: React.FC<any> = (props) => {
                 {experiences.map((e, index) =>
                     <Link href={e.mainLink} key={index} passHref legacyBehavior>
                         <div className='flex flex-col lg:flex-row link gap-x-[15px] cursor-pointer transition-all px-6 py-4
-                        lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group duration-150
-                        lg:hover:drop-shadow-lg rounded-lg'>
+                        lg:hover:bg-slate-500/10 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group duration-150
+                        lg:hover:drop-shadow-lg rounded-lg lg:hover:backdrop-blur-[1px]'>
                             <div className='font-bold text-xs tracking-wide text-slate-500 min-w-[140px] mb-2 lg:mb-0' key={index}>
                                 {e.date}
                             </div>

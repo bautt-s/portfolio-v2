@@ -58,6 +58,11 @@ export default function Home() {
 
     return (
         <main className={`flex flex-col lg:flex-row ${inter.variable}`}>
+            <svg className='absolute'>
+                <filter id='f'>
+                    <feTurbulence type='fractalNoise' baseFrequency='7.5' />
+                </filter>
+            </svg>
             <Sidebar liRefs={liRefs} />
             <MainInfo divRefs={divRefs} />
         </main>

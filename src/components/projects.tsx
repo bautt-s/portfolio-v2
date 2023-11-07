@@ -41,8 +41,8 @@ const Projects: React.FC<any> = (props) => {
                 {allProjects.map((p, index) =>
                     <Link href={p.mainLink} key={index} passHref legacyBehavior>
                         <div className="flex flex-col-reverse lg:flex-row items-start group cursor-pointer gap-x-[20px] 
-                        lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group px-6 py-4
-                        lg:hover:drop-shadow-lg rounded-lg link transition-all duration-150">
+                        lg:hover:bg-slate-500/10 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group px-6 py-4
+                        lg:hover:drop-shadow-lg rounded-lg link transition-all duration-150 lg:hover:backdrop-blur-[1px]">
                             <img alt={p.title} src={p.image} width={180} height={32} loading="lazy" style={{ 'color': 'transparent' }}
                             className="rounded border-2 border-slate-200/10 transition 
                             group-hover:border-slate-200/30 mt-6 lg:mt-0" />

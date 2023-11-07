@@ -28,7 +28,7 @@ const Sidebar: React.FC<any> = (props) => {
 
             <ul className='hidden lg:flex flex-col gap-y-[25px]'>
                 <li className="before:border-t before:border-solid before:border-slate-500 before:content-'' before:transition-all before:duration-300
-                    before:inline-block before:w-8 before:mb-1 font-bold uppercase tracking-widest text-slate-500 before:mr-4 hover:before:border-slate-300
+                    before:inline-block before:w-8 before:mb-1 font-bold uppercase tracking-widest text-slate-400 before:mr-4 hover:before:border-slate-300
                     before:border-[1px] text-xs hover:before:w-16 hover:text-slate-300 transition-all duration-300 cursor-pointer w-fit"
                     ref={liRefs[0]} onClick={() => scrollToSection('about')}>
                     About
