@@ -9,8 +9,8 @@ const About: React.FC<any> = (props) => {
 
             <p>
                 My tech journey started at a young age, fueled by a fascination with computers,
-                programming, and all things tech. I'd play around with coding even as a kid, creating
-                simple websites and experimenting with Minecraft plugins and mods. Today, I'm lucky to
+                programming, and all things tech. I&apos;d play around with coding even as a kid, creating
+                simple websites and experimenting with Minecraft plugins and mods. Today, I&apos;m lucky to
                 say that my work as a <strong className="cursor-pointer font-medium text-slate-200 
                     hover:text-teal-300 focus-visible:text-teal-300">QA Automation Engineer</strong> and <strong className="cursor-pointer font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
                     Fullstack Web Developer</strong> is driven by my passion.
@@ -32,7 +32,7 @@ const About: React.FC<any> = (props) => {
             <br />
 
             <span>
-            When I'm not coding, you'll often find me editing photos, having fun with
+            When I&apos;m not coding, you&apos;ll often find me editing photos, having fun with
                 video games (maybe attempting to reach Diamond again on <strong
                     className="cursor-pointer font-medium text-slate-200 s
                     hover:text-teal-300 focus-visible:text-teal-300">the rift!</strong>),
@@ -44,7 +44,7 @@ const About: React.FC<any> = (props) => {
                     border-slate-400/10 duration-300 opacity-0 group-hover:opacity-100 top-[30px] border-2
                     items-center justify-center rounded-sm left-[50%] translate-x-[-50%] river-animate transition-all'>
                         <img src='river-plate.png' height={32} width={32} 
-                        className="flex" />
+                        className="flex" alt='River Plate' />
                     </div>
                 </strong>,
                 hanging out with friends,

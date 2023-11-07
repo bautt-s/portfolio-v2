@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const Sidebar: React.FC<any> = (props) => {
@@ -13,7 +14,7 @@ const Sidebar: React.FC<any> = (props) => {
         lg:gap-4 lg:h-screen pl-6 py-12 lg:py-[80px] lg:pl-[100px] xl:pl-[160px] lg:w-[50%]">
             <header className="lg:flex lg:flex-col lg:max-h-screen">
                 <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-slate-200 ">
-                    <a href="/">Bautista Sánchez</a>
+                    <Link href="/">Bautista Sánchez</Link>
                 </h1>
 
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">

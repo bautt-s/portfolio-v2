@@ -11,7 +11,7 @@ const Contact: React.FC<any> = (props) => {
 
             <p className="mt-2 text-slate-400 text-sm tracking-wide leading-normal">
                 Want to get in contact with me? I am always open to discuss job opportunities or projects. 
-                And if you only want to say 'hi', I will get back at you, through my social links or mail below.
+                And if you only want to say "hi", I will get back at you, through my social links or mail below.
             </p>
 
             <a target="_blank" href="https://www.linkedin.com/in/baut-s/"
