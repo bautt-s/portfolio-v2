@@ -3,25 +3,30 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    --bg-color: #0a192f;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background-color: var(--bg-color);
+}
+
+.activeStyle {
+    color: rgb(203, 213, 225)
+}
+
+.activeStyle::before {
+    content: '';
+    width: 64px !important;
+    border-color: rgb(203, 213, 225) !important;
+    transition: width 0.3s
+}
+
+@media (min-width: 1024px) {
+    .experience:hover .link {
+        opacity: 0.5
+    }
+
+    .experience .link:hover {
+        opacity: 1
+    }
 }

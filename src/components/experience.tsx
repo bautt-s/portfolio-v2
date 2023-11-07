@@ -1,0 +1,98 @@
+import { FiArrowUpRight } from 'react-icons/fi'
+import { BiLink } from 'react-icons/bi'
+import { BsArrowRightShort } from 'react-icons/bs'
+import Link from 'next/link'
+
+const experiences = [{
+    title: 'Web Developer · Ensolvers',
+    subtitle: 'QA Automation Engineer',
+    date: 'AUG 2023 — PRESENT',
+    description: 'Deliver high-quality and robust solutions for a diverse array of projects for clients. Assure quality and reliability of these applications through manual and automated testing, planning and developing testing specs that help out identify problems in the process.',
+    tags: ['JavaScript', 'TypeScript', 'Cypress', 'Java', 'Jira', 'Spring Boot'],
+    links: [{ text: 'Jayaram', url: 'https://jayaramlaw.com/' }, { text: 'Ticketón', url: 'https://ticketon.com/' }],
+    mainLink: 'https://www.ensolvers.com/',
+}, {
+    title: 'Web Developer · Freelancer',
+    subtitle: 'Full-stack Web Developer',
+    date: 'MAY 2023 — PRESENT',
+    description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my help to multiple clients, and I am, at the moment, maintaining and developing two main projects.',
+    tags: ['React', 'GraphQL', 'TypeScript', 'MongoDB', 'Next.js', 'CSS', 'UI/UX'],
+    links: [{ text: 'AspinRock', url: 'https://www.aspinrock.com/' }, { text: 'FameFusion', url: 'https://famefusion-app.vercel.app/' }],
+    mainLink: 'https://github.com/bautt-s?tab=repositories'
+}, {
+    title: 'HENRY Bootcamp',
+    date: 'AUG — DEC 2022',
+    description: 'Learnt all about backend with Express.js, Node.js and JS/TS, as well as how to manage relational and non-relational databases, along with ORMs like Sequelize or Prisma. I picked up good programming practices, and learnt a lot about front-end frameworks and related tools like state-management.',
+    tags: ['Express.js', 'Node', 'JavaScript', 'Redux', 'PostgreSQL'],
+    links: [],
+    mainLink: 'https://www.soyhenry.com/',
+}]
+
+const Experience: React.FC<any> = (props) => {
+    const { experienceRef } = props
+
+    return (
+        <section className='mt-[100px]' id='experience' ref={experienceRef}>
+            <h5 className="text-sm uppercase font-bold text-slate-200 tracking-widest mb-6 lg:hidden ml-6">
+                Experience
+            </h5>
+
+            <div className='flex flex-col experience gap-y-[40px]'>
+                {experiences.map((e, index) =>
+                    <Link href={e.mainLink} key={index} passHref legacyBehavior>
+                        <div className='flex flex-col lg:flex-row link gap-x-[15px] cursor-pointer transition-all px-6 py-4
+                        lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group duration-150
+                        lg:hover:drop-shadow-lg rounded-lg'>
+                            <div className='font-bold text-xs tracking-wide text-slate-500 min-w-[140px] mb-2 lg:mb-0' key={index}>
+                                {e.date}
+                            </div>
+
+                            <div className='flex flex-col'>
+                                <h4 className='text-slate-300 text-lg flex flex-row items-center gap-x-[7px]'>
+                                    <span className='group-hover:text-[#64ffda] font-semibold'>{e.title}</span>
+                                    <FiArrowUpRight className='mt-[6px] group-hover:text-[#64ffda] duration-150
+                                    group-hover:translate-x-1 group-hover:translate-y-[-4px] transition-all' />
+                                </h4>
+
+                                {e.subtitle && <span className='text-slate-500 font-medium'>{e.subtitle}</span>}
+
+                                <p className='text-slate-400 text-sm leading-normal mt-2'>
+                                    {e.description}
+                                </p>
+
+                                <div className='flex flex-row gap-x-[15px] mt-4'>
+                                    {e.links.map((link, indexLink) =>
+                                        <Link href={link.url} key={indexLink}
+                                            className='flex flex-row items-center text-slate-300 gap-x-[5px] text-sm 
+                                        hover:text-teal-400 transition-all duration-150'>
+                                            <BiLink />
+                                            <span className='font-medium'>{link.text}</span>
+                                        </Link>
+                                    )}
+                                </div>
+
+                                <div className='flex flex-row flex-wrap gap-[10px] mt-4'>
+                                    {e.tags.map((tag, indexTag) =>
+                                        <span key={indexTag} className='flex items-center text-teal-300 
+                                    bg-teal-400/10 px-3 text-xs font-medium rounded-full py-1 leading-5'>
+                                            {tag}
+                                        </span>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
+                )}
+            </div>
+
+            <a className='text-slate-200 font-medium'>
+                <div className='flex flex-row items-center ml-6 group cursor-pointer mt-8'>
+                    <span className='group-hover:underline decoration-teal-200 underline-offset-4'>View Full Résumé</span>
+                    <BsArrowRightShort className='text-2xl ml-1 group-hover:ml-3 duration-150 transition-all' />
+                </div>
+            </a>
+        </section>
+    )
+}
+
+export default Experience

@@ -1,0 +1,21 @@
+import About from "./about"
+import Contact from "./contact"
+import Experience from "./experience"
+import Footer from "./footer"
+import Projects from "./projects"
+
+const MainInfo: React.FC<any> = (props) => {
+    const { divRefs } = props
+
+    return (
+        <div className="w-full lg:w-[55%] lg:pr-[100px] xl:pr-[160px] lg:py-[80px] flex flex-col">
+            <About aboutRef={divRefs[0]} />
+            <Experience experienceRef={divRefs[1]} />
+            <Projects projectsRef={divRefs[2]} />
+            <Contact contactRef={divRefs[3]} />
+            <Footer />
+        </div>
+    )
+}
+
+export default MainInfo
