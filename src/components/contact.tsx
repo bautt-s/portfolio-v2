@@ -2,16 +2,16 @@ const Contact: React.FC<any> = (props) => {
     const { contactRef } = props
 
     return (
-        <section id='contact' className="px-6 lg:ml-6 mt-[140px]" ref={contactRef}>
+        <section id='contact' className="px-6  mt-[140px]" ref={contactRef}>
             <h5 className="text-sm uppercase font-bold text-slate-200 tracking-widest mb-6 lg:hidden">
                 Contact
             </h5>
 
             <h2 className="text-slate-200 text-lg font-medium">Get in Touch!</h2>
 
-            <p className="mt-2 text-slate-400 text-sm tracking-wide leading-normal">
+            <p className="mt-2 text-slate-300/80 text-sm tracking-wide leading-normal">
                 Want to get in contact with me? I am always open to discuss job opportunities or projects. 
-                And if you only want to say "hi", I will get back at you, through my social links or mail below.
+                <br className="hidden md:inline lg:hidden" /> And if you only want to say "hi", I will get back at you, through my social links or mail below.
             </p>
 
             <a target="_blank" href="https://www.linkedin.com/in/baut-s/"

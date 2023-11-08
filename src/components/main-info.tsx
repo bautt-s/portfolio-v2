@@ -8,7 +8,8 @@ const MainInfo: React.FC<any> = (props) => {
     const { divRefs } = props
 
     return (
-        <div className="w-full lg:w-[55%] lg:pr-[100px] xl:pr-[160px] lg:py-[80px] flex flex-col">
+        <div className="w-full lg:w-[55%] lg:ml-[40px] md:pl-[20px] lg:pl-0 xl:ml-0 md:pr-[50px] 
+        lg:pr-[100px] xl:pr-[160px] lg:py-[80px] flex flex-col">
             <About aboutRef={divRefs[0]} />
             <Experience experienceRef={divRefs[1]} />
             <Projects projectsRef={divRefs[2]} />

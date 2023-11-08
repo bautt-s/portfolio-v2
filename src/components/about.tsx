@@ -2,7 +2,7 @@ const About: React.FC<any> = (props) => {
     const { aboutRef } = props
 
     return (
-        <div className="text-slate-400 tracking-wide px-6 lg:pl-6 lg:pr-0 mt-[40px] lg:mt-0" id='about' ref={aboutRef}>
+        <div className="text-slate-300/80 tracking-wide px-6 lg:pl-6 lg:pr-0 mt-[40px] lg:mt-0" id='about' ref={aboutRef}>
             <h5 className="text-sm uppercase font-bold text-slate-200 tracking-widest mb-6 lg:hidden">
                 About
             </h5>
@@ -40,7 +40,7 @@ const About: React.FC<any> = (props) => {
                 step away from the screen, you might catch me watching <strong className="
                     font-medium text-slate-200 hover:text-teal-300 group relative cursor-pointer">
                     football
-                    <div className='invisible group-hover:visible flex absolute bg-slate-800 w-16 h-12 
+                    <div className='invisible group-hover:visible flex absolute bg-none w-16 h-12 rounded-xl
                     border-slate-400/10 duration-300 opacity-0 group-hover:opacity-100 top-[30px] border-2
                     items-center justify-center rounded-sm left-[50%] translate-x-[-50%] river-animate transition-all'>
                         <img src='river-plate.png' height={32} width={32} 

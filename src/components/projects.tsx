@@ -40,21 +40,21 @@ const Projects: React.FC<any> = (props) => {
             <div className="flex flex-col gap-y-[40px] experience">
                 {allProjects.map((p, index) =>
                     <Link href={p.mainLink} key={index} passHref legacyBehavior>
-                        <div className="flex flex-col-reverse lg:flex-row items-start group cursor-pointer gap-x-[20px] 
+                        <div className="flex flex-col-reverse md:flex-row items-start group cursor-pointer gap-x-[20px] 
                         lg:hover:bg-slate-500/10 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group px-6 py-4
                         lg:hover:drop-shadow-lg rounded-lg link transition-all duration-150 lg:hover:backdrop-blur-[1px]">
                             <img alt={p.title} src={p.image} width={180} height={32} loading="lazy" style={{ 'color': 'transparent' }}
                             className="rounded border-2 border-slate-200/10 transition 
-                            group-hover:border-slate-200/30 mt-6 lg:mt-0" />
+                            group-hover:border-slate-200/30 mt-6 lg:mt-0 lg:w-[100px] lg:h-auto xl:w-[180px]" />
 
                             <div className="flex flex-col">
-                                <h4 className='text-slate-300 text-lg flex flex-row items-center gap-x-[7px]'>
+                                <h4 className='text-slate-200 text-lg flex flex-row items-center gap-x-[7px]'>
                                     <span className='lg:group-hover:text-[#64ffda] font-semibold'>{p.title}</span>
                                     <FiArrowUpRight className='mt-[6px] group-hover:text-[#64ffda] duration-150
                                     group-hover:translate-x-1 group-hover:translate-y-[-4px] transition-all' />
                                 </h4>
 
-                                <p className='text-slate-400 text-sm leading-normal mt-2'>
+                                <p className='text-slate-300/80 text-sm leading-normal mt-2'>
                                     {p.description}
                                 </p>
 
@@ -72,7 +72,7 @@ const Projects: React.FC<any> = (props) => {
                 )}
             </div>
 
-            <a className='text-slate-200 font-medium'>
+            <a className='text-slate-200 font-medium' href="/archive">
                 <div className='flex flex-row items-center ml-6 mt-8 group cursor-pointer'>
                     <span className='group-hover:underline decoration-teal-200 underline-offset-4'>View Full Project Archive</span>
                     <BsArrowRightShort className='text-2xl ml-1 group-hover:ml-3 duration-150 transition-all' />

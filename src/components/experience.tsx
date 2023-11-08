@@ -39,31 +39,31 @@ const Experience: React.FC<any> = (props) => {
 
             <div className='flex flex-col experience gap-y-[40px]'>
                 {experiences.map((e, index) =>
-                    <Link href={e.mainLink} key={index} passHref legacyBehavior>
-                        <div className='flex flex-col lg:flex-row link gap-x-[15px] cursor-pointer transition-all px-6 py-4
+                    <Link href={e.mainLink} key={index} rel="noopener noreferrer" passHref legacyBehavior>
+                        <div className='flex flex-col md:flex-row link xl:gap-x-[15px] cursor-pointer transition-all px-6 py-4
                         lg:hover:bg-slate-500/10 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group duration-150
-                        lg:hover:drop-shadow-lg rounded-lg lg:hover:backdrop-blur-[1px]'>
-                            <div className='font-bold text-xs tracking-wide text-slate-500 min-w-[140px] mb-2 lg:mb-0' key={index}>
+                        lg:hover:drop-shadow-lg rounded-lg lg:hover:backdrop-blur-[1px] md:gap-x-[60px] lg:gap-x-0'>
+                            <div className='font-bold text-xs tracking-wide text-slate-400 md:min-w-[140px] lg:min-w-[100px] xl:min-w-[140px] mb-2 lg:mb-0' key={index}>
                                 {e.date}
                             </div>
 
                             <div className='flex flex-col'>
-                                <h4 className='text-slate-300 text-lg flex flex-row items-center gap-x-[7px]'>
+                                <h4 className='text-slate-200 text-lg flex flex-row items-center gap-x-[7px]'>
                                     <span className='group-hover:text-[#64ffda] font-semibold'>{e.title}</span>
                                     <FiArrowUpRight className='mt-[6px] group-hover:text-[#64ffda] duration-150
                                     group-hover:translate-x-1 group-hover:translate-y-[-4px] transition-all' />
                                 </h4>
 
-                                {e.subtitle && <span className='text-slate-500 font-medium'>{e.subtitle}</span>}
+                                {e.subtitle && <span className='text-slate-400 font-medium'>{e.subtitle}</span>}
 
-                                <p className='text-slate-400 text-sm leading-normal mt-2'>
+                                <p className='text-slate-300/80 text-sm leading-normal mt-2'>
                                     {e.description}
                                 </p>
 
                                 <div className='flex flex-row gap-x-[15px] mt-4'>
                                     {e.links.map((link, indexLink) =>
                                         <Link href={link.url} key={indexLink}
-                                            className='flex flex-row items-center text-slate-300 gap-x-[5px] text-sm 
+                                            className='flex flex-row items-center text-slate-200 gap-x-[5px] text-sm 
                                         hover:text-teal-400 transition-all duration-150'>
                                             <BiLink />
                                             <span className='font-medium'>{link.text}</span>
