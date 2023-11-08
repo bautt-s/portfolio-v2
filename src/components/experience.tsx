@@ -31,6 +31,11 @@ const experiences = [{
 const Experience: React.FC<any> = (props) => {
     const { experienceRef } = props
 
+    const handleResume = () => {
+        const pdfUrl = '/resume.pdf'
+        window.open(pdfUrl, '_blank')
+    }
+
     return (
         <section className='mt-[100px]' id='experience' ref={experienceRef}>
             <h5 className="text-sm uppercase font-bold text-slate-200 tracking-widest mb-6 lg:hidden ml-6">
@@ -85,12 +90,12 @@ const Experience: React.FC<any> = (props) => {
                 )}
             </div>
 
-            <a className='text-slate-200 font-medium'>
+            <button className='text-slate-200 font-medium' onClick={handleResume}>
                 <div className='flex flex-row items-center ml-6 group cursor-pointer mt-8'>
                     <span className='group-hover:underline decoration-teal-200 underline-offset-4'>View Full Résumé</span>
                     <BsArrowRightShort className='text-2xl ml-1 group-hover:ml-3 duration-150 transition-all' />
                 </div>
-            </a>
+            </button>
         </section>
     )
 }

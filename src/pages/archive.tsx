@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 import { BsArrowLeftShort } from "react-icons/bs"
 import { FiArrowUpRight } from 'react-icons/fi'
 
@@ -78,11 +79,11 @@ export default function Archive() {
             </svg>
 
             <header className='font-inter'>
-                <a href='/'
+                <Link href='/'
                     className='text-teal-300 flex flex-row items-center font-medium leading-tight text-lg group gap-x-[5px]'>
                     <BsArrowLeftShort className='group-hover:translate-x-[-5px] transition-all duration-150 text-xl' />
                     <span>Bautista Sánchez</span>
-                </a>
+                </Link>
 
                 <h1 className='text-4xl sm:text-5xl font-bold text-slate-100 mt-2'>
                     All Projects
