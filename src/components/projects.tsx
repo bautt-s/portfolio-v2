@@ -16,7 +16,7 @@ const allProjects = [{
     mainLink: 'https://paint-n-spill.vercel.app/'
 }, {
     title: 'CoTravel — Landing',
-    description: 'Frontend project for a freelance client (travel agency): featuring a lot of animations and fancy styling, using Tailwind mixed with traditional CSS. Includes full responsible adaptation and dark mode colors.',
+    description: 'Frontend project for a freelance client (travel agency): featuring a lot of animations and fancy styling, using Tailwind mixed with traditional CSS. Includes full responsive adaptation and dark mode colors.',
     tags: ['React', 'TypeScript', 'Tailwind', 'CSS'],
     image: 'cotravel.png',
     mainLink: 'https://cotravel.vercel.app/'
