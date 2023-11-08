@@ -79,8 +79,8 @@ export default function Archive() {
             </svg>
 
             <header className='font-inter'>
-                <Link href='/'
-                    className='text-teal-300 flex flex-row items-center font-medium leading-tight text-lg group gap-x-[5px]'>
+                <Link href='/' className='text-teal-300 flex flex-row items-center 
+                font-medium leading-tight text-lg group gap-x-[5px] w-fit'>
                     <BsArrowLeftShort className='group-hover:translate-x-[-5px] transition-all duration-150 text-xl' />
                     <span>Bautista Sánchez</span>
                 </Link>
