@@ -72,12 +72,12 @@ const Projects: React.FC<any> = (props) => {
                 )}
             </div>
 
-            <a className='text-slate-200 font-medium' href="/archive">
+            <Link className='text-slate-200 font-medium' href="/archive">
                 <div className='flex flex-row items-center ml-6 mt-8 group cursor-pointer'>
                     <span className='group-hover:underline decoration-teal-200 underline-offset-4'>View Full Project Archive</span>
                     <BsArrowRightShort className='text-2xl ml-1 group-hover:ml-3 duration-150 transition-all' />
                 </div>
-            </a>
+            </Link>
         </section>
     )
 }
