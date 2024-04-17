@@ -14,7 +14,7 @@ const Contact: React.FC<any> = (props) => {
                 <br className="hidden md:inline lg:hidden" /> And if you only want to say "hi", I will get back at you, through my social links or mail below.
             </p>
 
-            <a target="_blank" href="https://www.linkedin.com/in/baut-s/"
+            <a href="mailto:2f.sanchezbautista@gmail.com"
             className="flex flex-row items-center gap-x-[5px] mt-6 group cursor-pointer">
                 <span className="text-slate-200 font-medium text-lg group-hover:underline underline-offset-4 decoration-teal-300">
                 — Say hello

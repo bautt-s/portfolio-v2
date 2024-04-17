@@ -60,12 +60,6 @@ const Sidebar: React.FC<any> = (props) => {
                 <a target='_blank' href='https://github.com/bautt-s/'>
                     <BsGithub className='hover:text-slate-200 text-2xl cursor-pointer' />
                 </a>
-                <a target='_blank' href='https://www.instagram.com/baausanchez/'>
-                    <BsInstagram className='hover:text-slate-200 text-2xl cursor-pointer' />
-                </a>
-                <a target='_blank' href='https://www.linkedin.com/in/baut-s/'>
-                    <BsLinkedin className='hover:text-slate-200 text-2xl cursor-pointer' />
-                </a>
             </div>
         </div>
     )

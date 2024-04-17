@@ -17,7 +17,7 @@ const experiences = [{
     date: 'MAY 2023 — PRESENT',
     description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my help to multiple clients, and I am, at the moment, maintaining and developing two main projects.',
     tags: ['React', 'GraphQL', 'TypeScript', 'MongoDB', 'Next.js', 'CSS', 'UI/UX'],
-    links: [{ text: 'AspinRock', url: 'https://www.aspinrock.com/' }, { text: 'FameFusion', url: 'https://famefusion-app.vercel.app/' }],
+    links: [{ text: 'AspinRock', url: 'https://aspin-rock.vercel.app/individual' }, { text: 'FameFusion', url: 'https://famefusion-app.vercel.app/' }],
     mainLink: 'https://github.com/bautt-s?tab=repositories'
 }, {
     title: 'HENRY Bootcamp',
