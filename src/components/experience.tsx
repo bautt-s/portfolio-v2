@@ -15,17 +15,17 @@ const experiences = [{
     title: 'Web Developer · Freelancer',
     subtitle: 'Full-stack Web Developer',
     date: 'MAY 2023 — PRESENT',
-    description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my help to multiple clients, and I am, at the moment, maintaining and developing two main projects.',
+    description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my abilities to multiple clients, across a wide diversity of projects.',
     tags: ['React', 'GraphQL', 'TypeScript', 'MongoDB', 'Next.js', 'CSS', 'UI/UX'],
-    links: [{ text: 'AspinRock', url: 'https://aspin-rock.vercel.app/individual' }, { text: 'FameFusion', url: 'https://famefusion-app.vercel.app/' }],
+    links: [],
     mainLink: 'https://github.com/bautt-s?tab=repositories'
 }, {
-    title: 'HENRY Bootcamp',
-    date: 'AUG — DEC 2022',
-    description: 'Learnt all about backend with Express.js, Node.js and JS/TS, as well as how to manage relational and non-relational databases, along with ORMs like Sequelize or Prisma. I picked up good programming practices, and learnt a lot about front-end frameworks and related tools like state-management.',
-    tags: ['Express.js', 'Node', 'JavaScript', 'Redux', 'PostgreSQL'],
+    title: 'Computer Science Major',
+    date: 'MAR 2022 — PRESENT',
+    description: 'Currently pursuing a degree in Computer Science at a local university, UNS. I am in my third year and have already learned programming fundamentals, computer theory, application development, a lot of math, and much more.',
+    tags: ['Java', 'Data Structures', 'JavaScript', 'C++', 'Applied Maths'],
     links: [],
-    mainLink: 'https://www.soyhenry.com/',
+    mainLink: 'https://cs.uns.edu.ar/~devcs/downloads/PlanLCC2012.pdf',
 }]
 
 const Experience: React.FC<any> = (props) => {
@@ -66,7 +66,7 @@ const Experience: React.FC<any> = (props) => {
                                 </p>
 
                                 <div className='flex flex-row gap-x-[15px] mt-4'>
-                                    {e.links.map((link, indexLink) =>
+                                    {e?.links?.map((link, indexLink) =>
                                         <Link href={link.url} key={indexLink}
                                             className='flex flex-row items-center text-slate-200 gap-x-[5px] text-sm 
                                         hover:text-teal-400 transition-all duration-150'>

@@ -19,11 +19,14 @@ const About: React.FC<any> = (props) => {
             <br />
 
             <p>
-                These days, my main focus is collaborating with the <a
+                At the moment, I am in my third year of pursuing a bachelor's degree in Computer Science, 
+                while also collaborating with the <a
                     href='https://www.ensolvers.com/' className="font-medium text-slate-200 
                 hover:text-teal-300">Ensolvers</a> team to
                 create high-quality projects that leave clients delighted with the attention
-                to detail. In my free time, I also enjoy taking on <strong className="
+                to detail. 
+                <br /><br/>
+                In my free time, I also enjoy taking on <strong className="
                 cursor-pointer font-medium text-slate-200 hover:text-teal-300 ">freelance
                     projects</strong> across various domains,
                 aiming to deliver top-notch products that make clients happy.
@@ -32,12 +35,9 @@ const About: React.FC<any> = (props) => {
             <br />
 
             <span>
-            When I&apos;m not coding, you&apos;ll often find me editing photos, having fun with
-                video games (maybe attempting to reach Diamond again on <strong
-                    className="cursor-pointer font-medium text-slate-200 s
-                    hover:text-teal-300 focus-visible:text-teal-300">the rift!</strong>),
-                or exploring the idea of starting my own clothing brand. And when I can
-                step away from the screen, you might catch me watching <strong className="
+            When I&apos;m not coding, you&apos;ll often find me editing photos, playing
+                video games,
+                or exploring venture opportunities. You might also catch me watching <strong className="
                     font-medium text-slate-200 hover:text-teal-300 group relative cursor-pointer">
                     football
                     <div className='invisible group-hover:visible flex absolute bg-none w-16 h-12 rounded-xl
