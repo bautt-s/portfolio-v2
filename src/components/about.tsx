@@ -10,26 +10,19 @@ const About: React.FC<any> = (props) => {
             <p>
                 My tech journey started at a young age, fueled by a fascination with computers,
                 programming, and all things tech. I&apos;d play around with coding even as a kid, creating
-                simple websites and experimenting with Minecraft plugins and mods. Today, I&apos;m lucky to
-                say that my work as a <strong className="cursor-pointer font-medium text-slate-200 
+                simple websites and experimenting with Minecraft plugins and mods. My last work was as a <strong className="cursor-pointer font-medium text-slate-200 
                     hover:text-teal-300 focus-visible:text-teal-300">QA Automation Engineer</strong> and <strong className="cursor-pointer font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300">
-                    Fullstack Web Developer</strong> is driven by my passion.
+                    Fullstack Web Developer</strong> at Ensolvers.
             </p>
 
             <br />
 
             <p>
                 At the moment, I am in my third year of pursuing a bachelor's degree in Computer Science, 
-                while also collaborating with the <a
-                    href='https://www.ensolvers.com/' className="font-medium text-slate-200 
-                hover:text-teal-300">Ensolvers</a> team to
-                create high-quality projects that leave clients delighted with the attention
-                to detail. 
-                <br /><br/>
-                In my free time, I also enjoy taking on <strong className="
+                while also taking on <strong className="
                 cursor-pointer font-medium text-slate-200 hover:text-teal-300 ">freelance
                     projects</strong> across various domains,
-                aiming to deliver top-notch products that make clients happy.
+                aiming to deliver top-notch products that make clients happy, with attention to detail and efficient results.
             </p>
 
             <br />

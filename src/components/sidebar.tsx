@@ -18,7 +18,7 @@ const Sidebar: React.FC<any> = (props) => {
                 </h1>
 
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                    Full-stack Developer at Ensolvers
+                    Full-stack Developer
                 </h2>
 
                 <p className="mt-4 max-w-xs leading-normal text-slate-300/80">
@@ -59,6 +59,9 @@ const Sidebar: React.FC<any> = (props) => {
             <div className='flex flex-row gap-x-[25px] mt-6 lg:mt-0 text-slate-300/80'>
                 <a target='_blank' href='https://github.com/bautt-s/'>
                     <BsGithub className='hover:text-slate-200 text-2xl cursor-pointer' />
+                </a>
+                <a target='_blank' href='https://www.linkedin.com/in/baut-s/'>
+                    <BsLinkedin className='hover:text-slate-200 text-2xl cursor-pointer' />
                 </a>
             </div>
         </div>

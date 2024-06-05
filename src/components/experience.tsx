@@ -4,14 +4,6 @@ import { BsArrowRightShort } from 'react-icons/bs'
 import Link from 'next/link'
 
 const experiences = [{
-    title: 'Web Developer · Ensolvers',
-    subtitle: 'QA Automation Engineer',
-    date: 'AUG 2023 — PRESENT',
-    description: 'Deliver high-quality and robust solutions for a diverse array of projects for clients. Assure quality and reliability of these applications through manual and automated testing, planning and developing testing specs that help out identify problems in the process.',
-    tags: ['JavaScript', 'TypeScript', 'Cypress', 'Java', 'Jira', 'Spring Boot'],
-    links: [{ text: 'Jayaram', url: 'https://jayaramlaw.com/' }, { text: 'Ticketón', url: 'https://ticketon.com/' }],
-    mainLink: 'https://www.ensolvers.com/',
-}, {
     title: 'Web Developer · Freelancer',
     subtitle: 'Full-stack Web Developer',
     date: 'MAY 2023 — PRESENT',
@@ -19,10 +11,20 @@ const experiences = [{
     tags: ['React', 'GraphQL', 'TypeScript', 'MongoDB', 'Next.js', 'CSS', 'UI/UX'],
     links: [],
     mainLink: 'https://github.com/bautt-s?tab=repositories'
-}, {
+},
+{
+    title: 'Web Developer · Ensolvers',
+    subtitle: 'QA Automation Engineer',
+    date: 'AUG 2023 — MAR 2024',
+    description: 'Deliver high-quality and robust solutions for a diverse array of projects for clients. Assure quality and reliability of these applications through manual and automated testing, planning and developing testing specs that help out identify problems in the process.',
+    tags: ['JavaScript', 'TypeScript', 'Cypress', 'Java', 'Jira', 'Spring Boot'],
+    links: [{ text: 'Jayaram', url: 'https://jayaramlaw.com/' }, { text: 'Ticketón', url: 'https://ticketon.com/' }],
+    mainLink: 'https://www.ensolvers.com/',
+}, 
+{
     title: 'Computer Science Major',
     date: 'MAR 2022 — PRESENT',
-    description: 'Currently pursuing a degree in Computer Science at a local university, UNS. I am in my third year and have already learned programming fundamentals, computer theory, application development, a lot of math, and much more.',
+    description: 'Currently pursuing a degree in Computer Science at a local university, UNS. Currently in my third year, I have already learned programming fundamentals, computer theory, application development, advanced calculus, and much more.',
     tags: ['Java', 'Data Structures', 'JavaScript', 'C++', 'Applied Maths'],
     links: [],
     mainLink: 'https://cs.uns.edu.ar/~devcs/downloads/PlanLCC2012.pdf',
