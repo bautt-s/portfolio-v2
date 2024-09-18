@@ -3,11 +3,11 @@ import { BsArrowRightShort } from "react-icons/bs"
 import { FiArrowUpRight } from 'react-icons/fi'
 
 const allProjects = [{
-    title: 'Paws Founding',
-    description: 'A group project, made as a mix between social network and crowdfunding platform, with the main objective of connecting animal shelters to people, help them with their financial matters via donations and get them to get more visibility, always looking to help animals.',
-    tags: ['MongoDB', 'TypeScript', 'Express.js', 'Auth0'],
-    image: 'pawsfounding-bg.png',
-    mainLink: 'https://pf-henry-grupo05.vercel.app/'
+    title: 'AspinRock',
+    description: 'Application for a financial services startup, mostly frontend work, with mail notifications support and internal CMS, allowing web owner to post updates & blogs.',
+    tags: ['MongoDB', 'TypeScript', 'Next.js', 'Tailwind'],
+    image: 'aspin.png',
+    mainLink: 'https://www.aspinrock.com/individual'
 }, {
     title: 'Paint & Spill',
     description: 'A fun little project: a browser game made with JS and React, for desktop and mobile, where the player needs to fill the screen with only one color in the least amount of moves.',
