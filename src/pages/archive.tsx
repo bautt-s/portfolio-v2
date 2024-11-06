@@ -45,18 +45,6 @@ const archive = [{
     type: 'Personal',
     tags: ['Next.js', 'GraphQL', 'TypeScript', 'MongoDB'],
     mainLink: 'https://artitude-app.vercel.app/'
-}, {
-    year: '2022',
-    title: 'Paws Founding',
-    type: 'Educational',
-    tags: ['MongoDB', 'TypeScript', 'Express.js', 'Auth0'],
-    mainLink: 'https://pf-henry-grupo05.vercel.app/'
-}, {
-    year: '2022',
-    title: 'Fetch Pups',
-    type: 'Educational',
-    tags: ['Sequelize', 'PostgreSQL', 'Express.js', 'Redux', 'React'],
-    mainLink: 'https://pi-dogs-henry-vert.vercel.app/'
 }]
 
 function extractMainDomain(input: string): string | null {

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs'
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
 const Sidebar: React.FC<any> = (props) => {
     const { liRefs } = props
@@ -18,7 +18,12 @@ const Sidebar: React.FC<any> = (props) => {
                 </h1>
 
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                    Full-stack Developer
+                    Frontend Developer @ 
+                
+                    <a href='https://www.nexosmart.com.ar/' target='_blank' className='ml-2 relative 
+                    top-[1px] underline underline-offset-4 decoration-2 decoration-teal-300 text-teal-300'>
+                        NexoSmart
+                    </a>
                 </h2>
 
                 <p className="mt-4 max-w-xs leading-normal text-slate-300/80">
