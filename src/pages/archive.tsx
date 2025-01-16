@@ -10,15 +10,51 @@ const inter = Inter({
 })
 
 const archive = [{
+    year: '2025',
+    title: 'Colourly',
+    type: 'Freelance',
+    tags: ['Svelte', 'TypeScript', 'SQLite', 'OpenAI', 'Replicate'],
+    mainLink: 'TBA'
+}, {
+    year: '2024',
+    title: 'TuFarmaPoint',
+    type: 'NexoSmart',
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'React Native', 'Redux'],
+    mainLink: 'https://www.tufarmapoint.com/app/#/home'
+},{
+    year: '2024',
+    title: 'GameMind',
+    type: 'NexoSmart',
+    tags: ['Expo', 'React Native', 'Tailwind', 'TypeScript', 'Redux'],
+    mainLink: 'https://apps.apple.com/ar/app/gamemind/id6464437952'
+},{
+    year: '2024',
+    title: 'NexoSmart — Website',
+    type: 'NexoSmart',
+    tags: ['Next.js', 'TypeScript', 'Tailwind', 'SEO', 'React'],
+    mainLink: 'https://www.nexosmart.com.ar/'
+},{
     year: '2023',
     title: 'FameFusion',
-    type: 'Commercial',
+    type: 'Freelance',
     tags: ['Next.js', 'GraphQL', 'Tailwind', 'MongoDB', 'Stripe'],
     mainLink: 'TBA'
+},{
+    year: '2023',
+    title: 'Ticketón',
+    type: 'Ensolvers',
+    tags: ['TypeScript', 'Cypress', 'Java', 'Spring'],
+    mainLink: 'https://ticketon.com/'
+},{
+    year: '2023',
+    title: 'Jayaram',
+    type: 'Ensolvers',
+    tags: ['TypeScript', 'Cypress', 'Java', 'Spring'],
+    mainLink: 'https://jayaramlaw.com/'
 }, {
     year: '2023',
     title: 'AspinRock',
-    type: 'Commercial',
+    type: 'Freelance',
     tags: ['Next.js', 'TypeScript', 'Tailwind', 'MongoDB'],
     mainLink: 'https://www.aspinrock.com/'
 }, {
@@ -30,13 +66,13 @@ const archive = [{
 }, {
     year: '2023',
     title: 'CybSec — Landing',
-    type: 'Commercial',
+    type: 'Freelance',
     tags: ['React', 'TypeScript', 'Tailwind', 'CSS'],
     mainLink: 'https://cyb-sec.vercel.app/'
 }, {
     year: '2023',
     title: 'CoTravel — Landing',
-    type: 'Commercial',
+    type: 'Freelance',
     tags: ['React', 'TypeScript', 'Tailwind', 'CSS'],
     mainLink: 'https://cotravel.vercel.app/'
 }, {
@@ -79,11 +115,11 @@ export default function Archive() {
             </header>
 
             <table className='mt-12 w-full border-collapse text-left'>
-                <thead className='sticky top-0 z-10 border-b border-slate-500/10 px-6 py-5 backdrop-blur'>
+                <thead className='sticky top-0 z-10 border-b border-slate-500/10 px-6 py-5'>
                     <tr>
                         <th className='py-4 pr-8 font-semibold text-slate-200'>Year</th>
                         <th className='py-4 pr-8 font-semibold text-slate-200'>Project</th>
-                        <th className='hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell'>Type</th>
+                        <th className='hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell'>Made at</th>
                         <th className='hidden py-4 pr-8 text-sm font-semibold text-slate-200 lg:table-cell'>Built with</th>
                         <th className='hidden py-4 pr-8 text-sm font-semibold text-slate-200 sm:table-cell'>Link</th>
                     </tr>

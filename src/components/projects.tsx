@@ -3,6 +3,12 @@ import { BsArrowRightShort } from "react-icons/bs"
 import { FiArrowUpRight } from 'react-icons/fi'
 
 const allProjects = [{
+    title: 'NexoSmart',
+    description: "Complete redesign and rework for NexoSmart website, the company I work at, providing tech services. Completely responsive web mixed with the aesthetics we were aiming for, with a perfect SEO score.",
+    tags: ['SEO', 'TypeScript', 'Next.js', 'Tailwind'],
+    image: 'nexosmart.png',
+    mainLink: 'https://www.nexosmart.com.ar/'
+}, {
     title: 'AspinRock',
     description: 'Application for a financial services startup, mostly frontend work, with mail notifications support and internal CMS, allowing web owner to post updates & blogs.',
     tags: ['MongoDB', 'TypeScript', 'Next.js', 'Tailwind'],
@@ -20,12 +26,6 @@ const allProjects = [{
     tags: ['React', 'TypeScript', 'Tailwind', 'CSS'],
     image: 'cotravel.png',
     mainLink: 'https://cotravel.vercel.app/'
-}, {
-    title: 'Artitude',
-    description: 'A concept for an online art gallery, where the user can browse by artist or artpieces. Made for practice purposes, it still needs a little work, but more features and samples are planned.',
-    tags: ['Next.js', 'GraphQL', 'TypeScript', 'MongoDB'],
-    image: 'artitude.png',
-    mainLink: 'https://artitude-app.vercel.app/'
 }]
 
 const Projects: React.FC<any> = (props) => {
