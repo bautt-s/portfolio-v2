@@ -13,8 +13,8 @@ const archive = [{
     year: '2025',
     title: 'Colourly',
     type: 'Freelance',
-    tags: ['Svelte', 'TypeScript', 'SQLite', 'OpenAI', 'Replicate'],
-    mainLink: 'TBA'
+    tags: ['SvelteKit', 'TypeScript', 'SQLite', 'OpenAI', 'Replicate', 'Stripe'],
+    mainLink: 'https://colorly.ink/'
 }, {
     year: '2024',
     title: 'TuFarmaPoint',

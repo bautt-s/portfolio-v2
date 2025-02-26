@@ -25,7 +25,7 @@ const experiences = [
     {
         title: 'Web Developer · Ensolvers',
         subtitle: 'QA Automation Engineer',
-        date: 'AUG 2023 — MAR 2024',
+        date: 'JUN 2023 — MAR 2024',
         description: 'Deliver high-quality and robust solutions for a diverse array of projects for clients. Assure quality and reliability of these applications through manual and automated testing, planning and developing testing specs that help out identify problems in the process.',
         tags: ['JavaScript', 'TypeScript', 'Cypress', 'Java', 'Jira', 'Spring Boot'],
         links: [{ text: 'Jayaram', url: 'https://jayaramlaw.com/' }, { text: 'Ticketón', url: 'https://ticketon.com/' }],

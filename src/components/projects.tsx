@@ -3,6 +3,12 @@ import { BsArrowRightShort } from "react-icons/bs"
 import { FiArrowUpRight } from 'react-icons/fi'
 
 const allProjects = [{
+    title: 'Colourly',
+    description: "My most ambitious comission project yet: a Saas platform which allows users to create a tailored colouring book from only a phrase, and get it sent to their homes, consuming a diverse array of APIs and services.",
+    tags: ['SvelteKit', 'Stripe', 'Firebase', 'OpenAI', 'Replicate', "TypeScript"],
+    image: 'colourly.png',
+    mainLink: 'https://colorly.ink/'
+},{
     title: 'NexoSmart',
     description: "Complete redesign and rework for NexoSmart website, the company I work at, providing tech services. Completely responsive web mixed with the aesthetics we were aiming for, with a perfect SEO score.",
     tags: ['SEO', 'TypeScript', 'Next.js', 'Tailwind'],
