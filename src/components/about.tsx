@@ -11,7 +11,7 @@ const About: React.FC<any> = (props) => {
                 My tech journey started at a young age, fueled by a fascination with computers,
                 programming, and all things tech. I&apos;d play around with coding even as a kid, creating
                 simple websites and experimenting with Minecraft plugins and mods. I am currently working as a <strong className="cursor-pointer font-medium text-slate-200 
-                    hover:text-teal-300 focus-visible:text-teal-300">Frontend Developer</strong> at NexoSmart.
+                    hover:text-teal-300 focus-visible:text-teal-300">Full Stack Developer</strong> at NexoSmart.
             </p>
 
             <br />

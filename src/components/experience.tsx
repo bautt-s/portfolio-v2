@@ -6,16 +6,16 @@ import Link from 'next/link'
 const experiences = [
     {
         title: 'Web Developer · NexoSmart',
-        subtitle: 'Frontend Developer',
+        subtitle: 'Full Stack Developer',
         date: 'NOVEMBER 2024 — PRESENT',
-        description: 'Currently employed as frontend developer, building, styling and shipping engaging, pixel-perfect components and websites for a diverse array of projects.',
-        tags: ['React', 'Tailwind', 'TypeScript', 'Redux', 'Next.js', 'CSS', 'UI/UX'],
+        description: 'Currently employed as full stack developer, building and shipping engaging components and websites for a diverse array of projects. I am also tasked with designing and developing powerful back-end solutions using Laravel and MySQL.',
+        tags: ['React', 'Tailwind', 'TypeScript', 'Laravel', 'PHP', 'MySQL', 'Next.js', 'CSS', 'UI/UX'],
         links: [],
         mainLink: 'https://www.nexosmart.com.ar/'
     },
     {
         title: 'Web Developer · Freelancer',
-        subtitle: 'Full-stack Web Developer',
+        subtitle: 'Full Stack Developer',
         date: 'MAY 2023 — PRESENT',
         description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my abilities to multiple clients, across a wide diversity of projects.',
         tags: ['React', 'GraphQL', 'TypeScript', 'MongoDB', 'Next.js', 'CSS', 'UI/UX'],

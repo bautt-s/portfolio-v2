@@ -18,7 +18,7 @@ const Sidebar: React.FC<any> = (props) => {
                 </h1>
 
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                    Frontend Developer @ 
+                    Full-stack Developer @ 
                 
                     <a href='https://www.nexosmart.com.ar/' target='_blank' className='ml-2 relative 
                     top-[1px] underline underline-offset-4 decoration-2 decoration-teal-300 text-teal-300'>
@@ -26,8 +26,8 @@ const Sidebar: React.FC<any> = (props) => {
                     </a>
                 </h2>
 
-                <p className="mt-4 max-w-xs leading-normal text-slate-300/80">
-                    I build accessible, inclusive products and digital experiences for the web.
+                <p className="mt-4 max-w-sm leading-normal text-slate-300/80">
+                    I craft engaging web experiences and engineer robust, future-ready digital infrastructures.
                 </p>
             </header>
 
