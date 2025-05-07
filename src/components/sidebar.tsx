@@ -10,8 +10,8 @@ const Sidebar: React.FC<any> = (props) => {
     }
 
     return (
-        <div className="lg:sticky lg:top-0 flex flex-col text-white font-inter lg:flex lg:justify-between 
-        lg:gap-4 lg:h-screen pl-6 py-12 lg:py-[80px] md:pl-[50px] lg:pl-[100px] xl:pl-[160px] 2xl:pl-[240px] lg:w-[50%]">
+        <div className="lg:sticky lg:top-0 flex flex-col text-white font-inter lg:flex lg:justify-between max-w-4xl
+        lg:gap-4 lg:h-screen pl-6 py-12 lg:py-[80px] md:pl-[50px] lg:pl-[100px] xl:pl-[110px] 2xl:pl-[200px] lg:w-[50%]">
             <header className="lg:flex lg:flex-col lg:max-h-screen">
                 <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-slate-100">
                     <Link href="/">Bautista Sánchez</Link>

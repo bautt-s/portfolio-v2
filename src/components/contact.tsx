@@ -2,7 +2,7 @@ const Contact: React.FC<any> = (props) => {
     const { contactRef } = props
 
     return (
-        <section id='contact' className="px-6  mt-[140px]" ref={contactRef}>
+        <section id='contact' className="px-6 mt-[140px]  max-w-2xl" ref={contactRef}>
             <h5 className="text-sm uppercase font-bold text-slate-200 tracking-widest mb-6 lg:hidden">
                 Contact
             </h5>
