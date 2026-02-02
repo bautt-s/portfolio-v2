@@ -5,16 +5,25 @@ import Link from 'next/link'
 
 const experiences = [
     {
-        title: 'Web Developer · NexoSmart',
+        title: 'Full-Stack Developer · Sheriff',
         subtitle: 'Full Stack Developer',
-        date: 'NOVEMBER 2024 — PRESENT',
-        description: 'Currently employed as full stack developer, building and shipping engaging components and websites for a diverse array of projects. I am also tasked with designing and developing powerful back-end solutions using Laravel and MySQL.',
+        date: 'FEB 2026 — PRESENT',
+        description: 'Developing end-to-end solutions from design to implementation, using Node.js, Next.js, and a diverse array of cloud tools.',
+        tags: ['Next.js', 'Node.js', 'TypeScript', 'AWS', 'GCP', 'Serverless'],
+        links: [],
+        mainLink: 'https://thesheriff.cl/'
+    },
+    {
+        title: 'Full-Stack Developer · NexoSmart',
+        subtitle: 'Full Stack Developer',
+        date: 'NOV 2024 — JAN 2026',
+        description: 'Builded and shipped engaging components and websites for a diverse array of projects. I was also tasked with designing and developing powerful back-end solutions using Laravel and MySQL.',
         tags: ['React', 'Tailwind', 'TypeScript', 'Laravel', 'PHP', 'MySQL', 'Next.js', 'CSS', 'UI/UX'],
         links: [],
         mainLink: 'https://www.nexosmart.com.ar/'
     },
     {
-        title: 'Web Developer · Freelancer',
+        title: 'Full-Stack Developer · Freelancer',
         subtitle: 'Full Stack Developer',
         date: 'MAY 2023 — PRESENT',
         description: 'In my free time, I like to keep myself busy taking on freelance contracts. I have lent my abilities to multiple clients, across a wide diversity of projects.',
@@ -23,7 +32,7 @@ const experiences = [
         mainLink: 'https://github.com/bautt-s?tab=repositories'
     },
     {
-        title: 'Web Developer · Ensolvers',
+        title: 'Full-Stack Developer · Ensolvers',
         subtitle: 'QA Automation Engineer',
         date: 'JUN 2023 — MAY 2024',
         description: 'Deliver high-quality and robust solutions for a diverse array of projects for clients. Assure quality and reliability of these applications through manual and automated testing, planning and developing testing specs that help out identify problems in the process.',

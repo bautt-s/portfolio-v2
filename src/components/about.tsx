@@ -18,7 +18,7 @@ const About: React.FC<any> = (props) => {
 
             <p>
                 Currently, I'm a semi-senior <strong className="cursor-pointer font-medium text-slate-200 
-                hover:text-teal-300 focus-visible:text-teal-300">Full Stack Developer</strong> at NexoSmart.
+                hover:text-teal-300 focus-visible:text-teal-300">Full Stack Developer</strong> at Sheriff.
                 As part of my everyday work, I plan and develop scalable backend systems, while also collaborating
                 on the visual aspects of our projects, ensuring a cohesive and user-friendly experience, both in web and
                 mobile applications.

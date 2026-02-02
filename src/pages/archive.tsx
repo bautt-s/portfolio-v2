@@ -110,7 +110,7 @@ export default function Archive() {
                 </Link>
 
                 <h1 className='text-4xl sm:text-5xl font-bold text-slate-100 mt-2'>
-                    All Projects
+                    All Projects <i>(outdated)</i>
                 </h1>
             </header>
 
